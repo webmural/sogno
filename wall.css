@@ -1,0 +1,53 @@
+:any-link { text-decoration-style: wavy }
+:hover { text-decoration-style: double }
+:active { text-decoration-style: dashed }
+
+:focus {
+  outline-style: dashed;
+  outline-width: thick;
+}
+
+html {
+  font-size: max(1em, 5vmax);
+  transition: 300ms;
+}
+
+body {
+  margin: auto;
+  overflow-wrap: anywhere;
+}
+
+figure {
+  margin: auto;
+  padding-block-end: 3rem;
+}
+
+em { font: inherit }
+a { transition: 300ms }
+data { letter-spacing: 1vw }
+
+samp {
+  align-items: center;
+  display: flex;
+  flex-flow: column;
+  font-weight: bold;
+  font-size: max(1em, 10vmax);
+  justify-content: center;
+  min-height: 100vh;
+}
+
+figcaption {
+  box-sizing: border-box;
+  display: flex;
+  flex-flow: column;
+  font-family: monospace;
+  align-items: center;
+  max-width: 20em;
+  padding: 1em;
+  font-size: 1em;
+}
+
+div {
+  padding: 1em;
+  writing-mode: vertical-rl;
+}

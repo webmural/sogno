@@ -1,0 +1,27 @@
+::selection {
+  background: indigo;
+  color: pink;
+}
+
+:root {
+  background: #ee1;
+  color: indigo;
+}
+
+:any-link {
+  color: indigo;
+}
+
+em {
+  color: purple;
+}
+
+data {
+  text-shadow:
+   -3vw -3vh 0 magenta,
+   -2vw -2vh 0 orchid,
+    -1vw -1vh 0 violet,
+    1vw 1vh 0 coral,
+    2vw 2vh 0 coral,
+    3vw 3vh 0 coral;
+}
